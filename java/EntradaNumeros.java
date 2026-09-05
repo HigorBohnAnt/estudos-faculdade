@@ -1,7 +1,3 @@
-/*Escreva um programa em java que receba um nu´mero. O programa deve
-encerrar quando o usu´ario informar -1. Caso contr´ario o programa dever´a
-pedir novamente um nu´mero.*/
-
 import java.util.Scanner;
 
 public class EntradaNumeros {

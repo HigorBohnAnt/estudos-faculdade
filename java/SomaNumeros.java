@@ -1,9 +1,3 @@
-/* 
- * Escreva um programa em java que receba um inteiro. Realize a soma do
- * nu´mero 1 at´e o valor informado pelo usu´ario. Apresente o resultado em
- * tela.
- */
-
 import java.util.Scanner;
 
 public class SomaNumeros {
