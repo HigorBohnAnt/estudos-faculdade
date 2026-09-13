@@ -2,7 +2,7 @@ public class Elevador {
 
     private boolean aberta;
     private int andarAtual;
-    private int totalAndares = 20;
+    private int totalAndares;
     private int subir;
     private int descer;
 
