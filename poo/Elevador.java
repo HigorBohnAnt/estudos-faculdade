@@ -47,6 +47,11 @@ public class Elevador {
         
     }
         public int descer(){
+            if(aberta){
+            System.out.println("Porta aberta, não é possível descer");
+            return andarAtual;
+        }
+
         if(andarAtual > 0){
             andarAtual --;
             System.out.println("Descendo para o andar " + andarAtual);

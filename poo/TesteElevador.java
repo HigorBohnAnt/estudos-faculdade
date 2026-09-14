@@ -1,10 +1,10 @@
 public class TesteElevador {
     public static void main(String[] args) {
-        Elevador elevador = new Elevador(20);
+        Elevador elevador = new Elevador(1);
        
         elevador.abrirPorta();
-        elevador.subir();
         elevador.fecharPorta();
         elevador.subir();
+        elevador.abrirPorta();
     }
 }
