@@ -59,6 +59,31 @@ public void fechar(){
     }
 }
 
+public void lavagem(){
+    if (!ligar){
+        System.out.println("Máquina desligada, não é possível centrifugar");
+        return;
+    }
+    if(!centrifuga){
+        
+        centrifuga = true;
+        System.out.println("Lavando");
+    } else {
+        System.out.println("Máquina já está lavando");
+    
+    }
+    
+    if (centrifuga){
+        centrifuga = false;
+        System.out.println("Lavagem finalizada");
+    } else {
+        System.out.println("Máquina não está lavando");
+    
+    }
+
+}
+
+
 public void centrifugar(){
     if (!ligar){
         System.out.println("Máquina desligada, não é possível centrifugar");
@@ -114,14 +139,3 @@ public void retomar(){
     }
 }
 }
-
-
-
-
-
-
-
-
-
-
-    

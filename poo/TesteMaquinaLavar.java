@@ -5,10 +5,12 @@ public class TesteMaquinaLavar {
         maquina.abrir();
         maquina.fechar();
         maquina.ligar();
+        maquina.lavagem();
         maquina.pausar();
         maquina.retomar();
         maquina.centrifugar();
         maquina.desligar();
-        maquina.abrir();
+        maquina.desligar();
+
     }
 }
