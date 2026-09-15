@@ -72,6 +72,14 @@ public void centrifugar(){
         System.out.println("Máquina já está centrifugando");
     
     }
+    
+    if (centrifuga){
+        centrifuga = false;
+        System.out.println("Centrifugando finalizado");
+    } else {
+        System.out.println("Máquina não está centrifugando");
+    
+    }
 
 }
 

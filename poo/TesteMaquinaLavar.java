@@ -8,6 +8,7 @@ public class TesteMaquinaLavar {
         maquina.pausar();
         maquina.retomar();
         maquina.centrifugar();
+        maquina.desligar();
         maquina.abrir();
     }
 }
